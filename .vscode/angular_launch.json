@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "configurations": [       
+        {
+            "name": "Launch localhost with sourcemaps",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3001",
+            "webRoot": "${workspaceRoot}/public"   ,
+            "sourceMaps": true,
+            "port": 9223,            
+            "diagnosticLogging": true,            
+            "userDataDir": "${workspaceRoot}/out/chrome"
+        }
+    ]
+}
